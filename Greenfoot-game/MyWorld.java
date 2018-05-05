@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class MyWorld extends World implements WorldSwapWorld
+public class MyWorld extends World implements IWorldSwapWorld
 {
 
     /**
@@ -32,7 +32,7 @@ public class MyWorld extends World implements WorldSwapWorld
         this.roleChoice=0;
         List objects = getObjects(null);
         removeObjects(objects);
-        Greenfoot.setWorld(new Scenario1(choiceList));
+        Greenfoot.setWorld(new Scenario(choiceList));
         
         }
     }
@@ -45,15 +45,15 @@ public class MyWorld extends World implements WorldSwapWorld
      */
     private void prepare()
     {
-        Monkey monkey = new Monkey();
+        Mac monkey = new Mac();
         addObject(monkey,172,290);
-        Pig pig = new Pig();
+        Pina pig = new Pina();
         addObject(pig,298,290);
-        Sandy sandy = new Sandy();
+        Sierra sandy = new Sierra();
         addObject(sandy,422,291);
-        user1 user1 = new user1();
+        User1 user1 = new User1();
         addObject(user1,72,280);
-        user2 user2 = new user2();
+        User2 user2 = new User2();
         addObject(user2,72,306);
         // Set the position of the Role choice
 
