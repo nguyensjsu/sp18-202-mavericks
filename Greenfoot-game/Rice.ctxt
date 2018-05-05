@@ -1,7 +1,15 @@
 #BlueJ class context
 comment0.target=Rice
-comment0.text=\n\ Write\ a\ description\ of\ class\ Rice\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Bread\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Rice\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment1.target=Rice()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Bread\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=item
+comment2.target=void\ add(items)
+comment3.params=item
+comment3.target=void\ remove(items)
+comment4.params=
+comment4.target=java.util.List\ getChild()
+comment5.params=
+comment5.target=void\ act()
+numComments=6

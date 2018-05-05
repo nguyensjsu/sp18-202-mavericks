@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Sierrarole
+comment0.text=\n\ Write\ a\ description\ of\ class\ Monkeyrole\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=dicision\ sce\ health
+comment1.target=Sierrarole(java.lang.Boolean,\ Scenario,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3
