@@ -14,6 +14,6 @@ public class bricks extends Floor
      */
     public void act() 
     {
-        // Add your action code here.
+        // Add your action code here....
     }    
 }
