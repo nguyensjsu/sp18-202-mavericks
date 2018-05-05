@@ -44,7 +44,6 @@ public class Bullet extends Actor
                 
     }   
     
-    //角色打击敌人
     public boolean hit(Enemy enemy){
         
             if(this.intersects(enemy)){
@@ -57,7 +56,6 @@ public class Bullet extends Actor
             }                    
     }
     
-    //敌人打击角色
 //    public void hitRole(Monkeyrole monkey){
 
 //            if(this.intersects(monkey)){

@@ -166,7 +166,7 @@ public class Sierrarole extends Player
         if(this!=null){
 //            status();
                if(this.health<20&&this.health>0){
-                   if(this.status==false){//无敌状态
+                   if(this.status==false){
                       if (timer>0){
                        timer=timer-60;
                       
@@ -176,7 +176,7 @@ public class Sierrarole extends Player
                        }
                     }
                     }
-                   else{//普通状态
+                   else{
                        if(timer==10000){
                            this.status=false;
                         }

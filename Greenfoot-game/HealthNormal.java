@@ -20,7 +20,6 @@ public class HealthNormal extends Actor implements IState
     
     
     
-    //这里this 对象的问题还没有处理
     public void healthControl(Actor bulletEnemy,Actor enemy,Actor enemy_touch,Player player){
     //    Actor bulletEnemy = getOneIntersectingObject(BulletEnemy.class);
               

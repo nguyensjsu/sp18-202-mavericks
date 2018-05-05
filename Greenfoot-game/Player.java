@@ -106,10 +106,6 @@ public class Player extends Actor
          }
         }
         
-          
-      
-// 发射子弹
-       
     }
     
 }

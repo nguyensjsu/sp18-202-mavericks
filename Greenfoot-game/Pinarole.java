@@ -24,12 +24,10 @@ public class Pinarole extends Player
     private Scenario sce;
     public int health;
     
-    //无敌的时间
 //    private SimpleTimer timer = new SimpleTimer();
 //    private int LiveTime = 1000;
     private int timer = 10000;
     
-    //角色的状态
     private boolean status=true;
     private int num=1;
     
@@ -118,7 +116,6 @@ public class Pinarole extends Player
         
         
         
-        //第二种状态
         if(!role){
              if(Greenfoot.isKeyDown("A") ){
                 move(-4);
@@ -172,7 +169,7 @@ public class Pinarole extends Player
         if(this!=null){
 
                if(this.health<20&&this.health>0){
-                   if(this.status==false){//无敌状态
+                   if(this.status==false){
                       if (timer>0){
                        timer=timer-60;
                       
@@ -182,7 +179,7 @@ public class Pinarole extends Player
                        }
                     }
                     }
-                   else{//普通状态
+                   else{
                        if(timer==10000){
                            this.status=false;
                         }
