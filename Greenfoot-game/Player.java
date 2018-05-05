@@ -104,6 +104,15 @@ public class Player extends Actor
          if(a.getY()<getY()+20){
            setLocation(getX(),getY()+4);
          }
-        }}}
+        }
         
           
+      
+// 发射子弹
+       
+    }
+    
+}
+        
+
+
