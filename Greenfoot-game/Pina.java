@@ -1,20 +1,25 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class PickRoles here.
+ * Write a description of class Pig here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class PickRoles extends Actor
+public class Pina extends roleChoice
 {
     /**
-     * Act - do whatever the PickRoles wants to do. This method is called whenever
+     * Act - do whatever the Pig wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Pina () {
+        GreenfootImage image = getImage();  
+        image.scale(80,80); 
+        setImage(image);
+    
+    }
     public void act() 
     {
         // Add your action code here.
-        
     }    
 }
